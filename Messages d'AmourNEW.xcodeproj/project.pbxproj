@@ -14,6 +14,64 @@
 		11B453D52BDE639F009C4103 /* Messages_d_AmourNEWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B453D42BDE639F009C4103 /* Messages_d_AmourNEWTests.swift */; };
 		11B453DF2BDE639F009C4103 /* Messages_d_AmourNEWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B453DE2BDE639F009C4103 /* Messages_d_AmourNEWUITests.swift */; };
 		11B453E12BDE639F009C4103 /* Messages_d_AmourNEWUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B453E02BDE639F009C4103 /* Messages_d_AmourNEWUITestsLaunchTests.swift */; };
+		11B453F32BDE63EF009C4103 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B453F12BDE63EF009C4103 /* DBHelper.swift */; };
+		11B453F42BDE63EF009C4103 /* love_messages_french.db in Resources */ = {isa = PBXBuildFile; fileRef = 11B453F22BDE63EF009C4103 /* love_messages_french.db */; };
+		11B454032BDE6400009C4103 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B453F52BDE6400009C4103 /* NotificationManager.swift */; };
+		11B454042BDE6400009C4103 /* ColorStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B453F72BDE6400009C4103 /* ColorStrings.swift */; };
+		11B454052BDE6400009C4103 /* FontStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B453F82BDE6400009C4103 /* FontStrings.swift */; };
+		11B454062BDE6400009C4103 /* StringResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B453F92BDE6400009C4103 /* StringResources.swift */; };
+		11B454072BDE6400009C4103 /* MessagesManagerUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B453FB2BDE6400009C4103 /* MessagesManagerUntil.swift */; };
+		11B454082BDE6400009C4103 /* QuotesManagerUntil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B453FC2BDE6400009C4103 /* QuotesManagerUntil.swift */; };
+		11B454092BDE6400009C4103 /* AdsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B453FE2BDE6400009C4103 /* AdsManager.swift */; };
+		11B4540A2BDE6400009C4103 /* AdsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B453FF2BDE6400009C4103 /* AdsViewModel.swift */; };
+		11B4540B2BDE6400009C4103 /* BackgroundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454012BDE6400009C4103 /* BackgroundManager.swift */; };
+		11B4542D2BDE640E009C4103 /* GiftDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4540C2BDE640E009C4103 /* GiftDialog.swift */; };
+		11B4542E2BDE640E009C4103 /* AnimatedGifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4540E2BDE640E009C4103 /* AnimatedGifView.swift */; };
+		11B4542F2BDE640E009C4103 /* BackgroundChooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454102BDE640E009C4103 /* BackgroundChooseView.swift */; };
+		11B454302BDE640E009C4103 /* BoundsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454112BDE640E009C4103 /* BoundsPreferenceKey.swift */; };
+		11B454312BDE640E009C4103 /* CZImageEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454122BDE640E009C4103 /* CZImageEditor.swift */; };
+		11B454322BDE640E009C4103 /* CZImageEditorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454132BDE640E009C4103 /* CZImageEditorViewModel.swift */; };
+		11B454332BDE640E009C4103 /* EditImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454142BDE640E009C4103 /* EditImageView.swift */; };
+		11B454342BDE640E009C4103 /* EditOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454152BDE640E009C4103 /* EditOption.swift */; };
+		11B454352BDE640E009C4103 /* FilteredImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454162BDE640E009C4103 /* FilteredImage.swift */; };
+		11B454362BDE640E009C4103 /* FrameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454172BDE640E009C4103 /* FrameType.swift */; };
+		11B454372BDE640E009C4103 /* ImageEditorParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454182BDE640E009C4103 /* ImageEditorParameters.swift */; };
+		11B454382BDE640E009C4103 /* ImagesSlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454192BDE640E009C4103 /* ImagesSlideView.swift */; };
+		11B454392BDE640E009C4103 /* ImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4541A2BDE640E009C4103 /* ImagesView.swift */; };
+		11B4543A2BDE640E009C4103 /* ImagesViewHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4541B2BDE640E009C4103 /* ImagesViewHome.swift */; };
+		11B4543B2BDE640E009C4103 /* PressAndRelease.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4541C2BDE640E009C4103 /* PressAndRelease.swift */; };
+		11B4543C2BDE640E009C4103 /* ScreenshotMakerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4541D2BDE640E009C4103 /* ScreenshotMakerView.swift */; };
+		11B4543D2BDE640E009C4103 /* TextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4541E2BDE640E009C4103 /* TextBox.swift */; };
+		11B4543E2BDE640E009C4103 /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4541F2BDE640E009C4103 /* TextButton.swift */; };
+		11B4543F2BDE640E009C4103 /* MessagesFavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454212BDE640E009C4103 /* MessagesFavoriteView.swift */; };
+		11B454402BDE640E009C4103 /* MessagesFavoriteViewSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454222BDE640E009C4103 /* MessagesFavoriteViewSlide.swift */; };
+		11B454412BDE640E009C4103 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454232BDE640E009C4103 /* MessagesView.swift */; };
+		11B454422BDE640E009C4103 /* MessagesViewHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454242BDE640E009C4103 /* MessagesViewHome.swift */; };
+		11B454432BDE640E009C4103 /* MessagesViewSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454252BDE640E009C4103 /* MessagesViewSlide.swift */; };
+		11B454442BDE640E009C4103 /* StatusBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454272BDE640E009C4103 /* StatusBarModifier.swift */; };
+		11B454452BDE640E009C4103 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454292BDE640E009C4103 /* HomeView.swift */; };
+		11B454462BDE640E009C4103 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4542A2BDE640E009C4103 /* MainView.swift */; };
+		11B454472BDE640E009C4103 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4542B2BDE640E009C4103 /* SettingView.swift */; };
+		11B454582BDE641D009C4103 /* MainRadioGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454482BDE641D009C4103 /* MainRadioGroupView.swift */; };
+		11B454592BDE641D009C4103 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4544A2BDE641D009C4103 /* Messages.swift */; };
+		11B4545A2BDE641D009C4103 /* MessagesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4544B2BDE641D009C4103 /* MessagesManager.swift */; };
+		11B4545B2BDE641D009C4103 /* PackageMess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4544C2BDE641D009C4103 /* PackageMess.swift */; };
+		11B4545C2BDE641D009C4103 /* ItemRcvCategoriesImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4544F2BDE641D009C4103 /* ItemRcvCategoriesImages.swift */; };
+		11B4545D2BDE641D009C4103 /* ItemRcvCategoriesMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454502BDE641D009C4103 /* ItemRcvCategoriesMessages.swift */; };
+		11B4545E2BDE641D009C4103 /* ItemRcvMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454512BDE641D009C4103 /* ItemRcvMessages.swift */; };
+		11B4545F2BDE641D009C4103 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454532BDE641D009C4103 /* Category.swift */; };
+		11B454602BDE641D009C4103 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454542BDE641D009C4103 /* Package.swift */; };
+		11B454612BDE641D009C4103 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454552BDE641D009C4103 /* Quote.swift */; };
+		11B454622BDE641D009C4103 /* QuoteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454562BDE641D009C4103 /* QuoteManager.swift */; };
+		11B4546E2BDE662B009C4103 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = 11B4546D2BDE662B009C4103 /* AlertToast */; };
+		11B454702BDE662B009C4103 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 11B4546F2BDE662B009C4103 /* GoogleMobileAds */; };
+		11B454722BDE662B009C4103 /* ImagePickerSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 11B454712BDE662B009C4103 /* ImagePickerSwiftUI */; };
+		11B454742BDE662B009C4103 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 11B454732BDE662B009C4103 /* Kingfisher */; };
+		11B454762BDE662B009C4103 /* ScreenshotSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 11B454752BDE662B009C4103 /* ScreenshotSwiftUI */; };
+		11B454782BDE662B009C4103 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 11B454772BDE662B009C4103 /* SQLite */; };
+		11B454802BDE662B009C4103 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 11B4547F2BDE662B009C4103 /* URLImage */; };
+		11B454822BDE662B009C4103 /* URLImageStore in Frameworks */ = {isa = PBXBuildFile; productRef = 11B454812BDE662B009C4103 /* URLImageStore */; };
+		11B454842BDE6F21009C4103 /* AppOpenAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B454832BDE6F21009C4103 /* AppOpenAdView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +91,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		11B4547D2BDE662B009C4103 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		11B453C02BDE639E009C4103 /* Messages d'AmourNEW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Messages d'AmourNEW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11B453C32BDE639E009C4103 /* Messages_d_AmourNEWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages_d_AmourNEWApp.swift; sourceTree = "<group>"; };
@@ -44,6 +115,57 @@
 		11B453DA2BDE639F009C4103 /* Messages d'AmourNEWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Messages d'AmourNEWUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11B453DE2BDE639F009C4103 /* Messages_d_AmourNEWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages_d_AmourNEWUITests.swift; sourceTree = "<group>"; };
 		11B453E02BDE639F009C4103 /* Messages_d_AmourNEWUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages_d_AmourNEWUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11B453F12BDE63EF009C4103 /* DBHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DBHelper.swift; path = "../../../../Downloads/J36/Messages dAmour/Database/DBHelper.swift"; sourceTree = "<group>"; };
+		11B453F22BDE63EF009C4103 /* love_messages_french.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = love_messages_french.db; path = "../../../../Downloads/J36/Messages dAmour/Database/love_messages_french.db"; sourceTree = "<group>"; };
+		11B453F52BDE6400009C4103 /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		11B453F72BDE6400009C4103 /* ColorStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorStrings.swift; sourceTree = "<group>"; };
+		11B453F82BDE6400009C4103 /* FontStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontStrings.swift; sourceTree = "<group>"; };
+		11B453F92BDE6400009C4103 /* StringResources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringResources.swift; sourceTree = "<group>"; };
+		11B453FB2BDE6400009C4103 /* MessagesManagerUntil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesManagerUntil.swift; sourceTree = "<group>"; };
+		11B453FC2BDE6400009C4103 /* QuotesManagerUntil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotesManagerUntil.swift; sourceTree = "<group>"; };
+		11B453FE2BDE6400009C4103 /* AdsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdsManager.swift; sourceTree = "<group>"; };
+		11B453FF2BDE6400009C4103 /* AdsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdsViewModel.swift; sourceTree = "<group>"; };
+		11B454012BDE6400009C4103 /* BackgroundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundManager.swift; sourceTree = "<group>"; };
+		11B4540C2BDE640E009C4103 /* GiftDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftDialog.swift; sourceTree = "<group>"; };
+		11B4540E2BDE640E009C4103 /* AnimatedGifView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedGifView.swift; sourceTree = "<group>"; };
+		11B454102BDE640E009C4103 /* BackgroundChooseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundChooseView.swift; sourceTree = "<group>"; };
+		11B454112BDE640E009C4103 /* BoundsPreferenceKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoundsPreferenceKey.swift; sourceTree = "<group>"; };
+		11B454122BDE640E009C4103 /* CZImageEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZImageEditor.swift; sourceTree = "<group>"; };
+		11B454132BDE640E009C4103 /* CZImageEditorViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZImageEditorViewModel.swift; sourceTree = "<group>"; };
+		11B454142BDE640E009C4103 /* EditImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditImageView.swift; sourceTree = "<group>"; };
+		11B454152BDE640E009C4103 /* EditOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditOption.swift; sourceTree = "<group>"; };
+		11B454162BDE640E009C4103 /* FilteredImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilteredImage.swift; sourceTree = "<group>"; };
+		11B454172BDE640E009C4103 /* FrameType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameType.swift; sourceTree = "<group>"; };
+		11B454182BDE640E009C4103 /* ImageEditorParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageEditorParameters.swift; sourceTree = "<group>"; };
+		11B454192BDE640E009C4103 /* ImagesSlideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesSlideView.swift; sourceTree = "<group>"; };
+		11B4541A2BDE640E009C4103 /* ImagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesView.swift; sourceTree = "<group>"; };
+		11B4541B2BDE640E009C4103 /* ImagesViewHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesViewHome.swift; sourceTree = "<group>"; };
+		11B4541C2BDE640E009C4103 /* PressAndRelease.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PressAndRelease.swift; sourceTree = "<group>"; };
+		11B4541D2BDE640E009C4103 /* ScreenshotMakerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenshotMakerView.swift; sourceTree = "<group>"; };
+		11B4541E2BDE640E009C4103 /* TextBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextBox.swift; sourceTree = "<group>"; };
+		11B4541F2BDE640E009C4103 /* TextButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
+		11B454212BDE640E009C4103 /* MessagesFavoriteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesFavoriteView.swift; sourceTree = "<group>"; };
+		11B454222BDE640E009C4103 /* MessagesFavoriteViewSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesFavoriteViewSlide.swift; sourceTree = "<group>"; };
+		11B454232BDE640E009C4103 /* MessagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		11B454242BDE640E009C4103 /* MessagesViewHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewHome.swift; sourceTree = "<group>"; };
+		11B454252BDE640E009C4103 /* MessagesViewSlide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewSlide.swift; sourceTree = "<group>"; };
+		11B454272BDE640E009C4103 /* StatusBarModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusBarModifier.swift; sourceTree = "<group>"; };
+		11B454292BDE640E009C4103 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		11B4542A2BDE640E009C4103 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		11B4542B2BDE640E009C4103 /* SettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		11B454482BDE641D009C4103 /* MainRadioGroupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRadioGroupView.swift; sourceTree = "<group>"; };
+		11B4544A2BDE641D009C4103 /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		11B4544B2BDE641D009C4103 /* MessagesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesManager.swift; sourceTree = "<group>"; };
+		11B4544C2BDE641D009C4103 /* PackageMess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageMess.swift; sourceTree = "<group>"; };
+		11B4544F2BDE641D009C4103 /* ItemRcvCategoriesImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemRcvCategoriesImages.swift; sourceTree = "<group>"; };
+		11B454502BDE641D009C4103 /* ItemRcvCategoriesMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemRcvCategoriesMessages.swift; sourceTree = "<group>"; };
+		11B454512BDE641D009C4103 /* ItemRcvMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemRcvMessages.swift; sourceTree = "<group>"; };
+		11B454532BDE641D009C4103 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		11B454542BDE641D009C4103 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		11B454552BDE641D009C4103 /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		11B454562BDE641D009C4103 /* QuoteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteManager.swift; sourceTree = "<group>"; };
+		11B454632BDE6452009C4103 /* Messages-d-AmourNEW-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Messages-d-AmourNEW-Info.plist"; sourceTree = SOURCE_ROOT; };
+		11B454832BDE6F21009C4103 /* AppOpenAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppOpenAdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +173,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11B454822BDE662B009C4103 /* URLImageStore in Frameworks */,
+				11B454782BDE662B009C4103 /* SQLite in Frameworks */,
+				11B454802BDE662B009C4103 /* URLImage in Frameworks */,
+				11B454762BDE662B009C4103 /* ScreenshotSwiftUI in Frameworks */,
+				11B454742BDE662B009C4103 /* Kingfisher in Frameworks */,
+				11B454702BDE662B009C4103 /* GoogleMobileAds in Frameworks */,
+				11B4546E2BDE662B009C4103 /* AlertToast in Frameworks */,
+				11B454722BDE662B009C4103 /* ImagePickerSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +208,7 @@
 				11B453D32BDE639F009C4103 /* Messages d'AmourNEWTests */,
 				11B453DD2BDE639F009C4103 /* Messages d'AmourNEWUITests */,
 				11B453C12BDE639E009C4103 /* Products */,
+				11B4546C2BDE662B009C4103 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +225,11 @@
 		11B453C22BDE639E009C4103 /* Messages d'AmourNEW */ = {
 			isa = PBXGroup;
 			children = (
+				11B454632BDE6452009C4103 /* Messages-d-AmourNEW-Info.plist */,
+				11B453F02BDE63DB009C4103 /* Model */,
+				11B453EF2BDE63D7009C4103 /* VIew */,
+				11B453EE2BDE63D1009C4103 /* Control */,
+				11B453ED2BDE63C9009C4103 /* Database */,
 				11B453C32BDE639E009C4103 /* Messages_d_AmourNEWApp.swift */,
 				11B453C52BDE639E009C4103 /* ContentView.swift */,
 				11B453C72BDE639F009C4103 /* Assets.xcassets */,
@@ -127,6 +263,231 @@
 			path = "Messages d'AmourNEWUITests";
 			sourceTree = "<group>";
 		};
+		11B453ED2BDE63C9009C4103 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				11B453F12BDE63EF009C4103 /* DBHelper.swift */,
+				11B453F22BDE63EF009C4103 /* love_messages_french.db */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		11B453EE2BDE63D1009C4103 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				11B454002BDE6400009C4103 /* Ads */,
+				11B454022BDE6400009C4103 /* Background */,
+				11B453F62BDE6400009C4103 /* Notify */,
+				11B453FA2BDE6400009C4103 /* Res */,
+				11B453FD2BDE6400009C4103 /* Until */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		11B453EF2BDE63D7009C4103 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				11B4540D2BDE640E009C4103 /* Dialog */,
+				11B4542C2BDE640E009C4103 /* View */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		11B453F02BDE63DB009C4103 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11B4544E2BDE641D009C4103 /* Image */,
+				11B454522BDE641D009C4103 /* LítItem */,
+				11B4544D2BDE641D009C4103 /* MesagesManager */,
+				11B454572BDE641D009C4103 /* QuotesManager */,
+				11B454492BDE641D009C4103 /* RadioGroup */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11B453F62BDE6400009C4103 /* Notify */ = {
+			isa = PBXGroup;
+			children = (
+				11B453F52BDE6400009C4103 /* NotificationManager.swift */,
+			);
+			name = Notify;
+			path = "../../../../Downloads/J36/Messages dAmour/Control/Notify";
+			sourceTree = "<group>";
+		};
+		11B453FA2BDE6400009C4103 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				11B453F72BDE6400009C4103 /* ColorStrings.swift */,
+				11B453F82BDE6400009C4103 /* FontStrings.swift */,
+				11B453F92BDE6400009C4103 /* StringResources.swift */,
+			);
+			name = Res;
+			path = "../../../../Downloads/J36/Messages dAmour/Control/Res";
+			sourceTree = "<group>";
+		};
+		11B453FD2BDE6400009C4103 /* Until */ = {
+			isa = PBXGroup;
+			children = (
+				11B453FB2BDE6400009C4103 /* MessagesManagerUntil.swift */,
+				11B453FC2BDE6400009C4103 /* QuotesManagerUntil.swift */,
+			);
+			name = Until;
+			path = "../../../../Downloads/J36/Messages dAmour/Control/Until";
+			sourceTree = "<group>";
+		};
+		11B454002BDE6400009C4103 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				11B453FE2BDE6400009C4103 /* AdsManager.swift */,
+				11B453FF2BDE6400009C4103 /* AdsViewModel.swift */,
+				11B454832BDE6F21009C4103 /* AppOpenAdView.swift */,
+			);
+			name = Ads;
+			path = "../../../../Downloads/J36/Messages dAmour/Control/Ads";
+			sourceTree = "<group>";
+		};
+		11B454022BDE6400009C4103 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				11B454012BDE6400009C4103 /* BackgroundManager.swift */,
+			);
+			name = Background;
+			path = "../../../../Downloads/J36/Messages dAmour/Control/Background";
+			sourceTree = "<group>";
+		};
+		11B4540D2BDE640E009C4103 /* Dialog */ = {
+			isa = PBXGroup;
+			children = (
+				11B4540C2BDE640E009C4103 /* GiftDialog.swift */,
+			);
+			name = Dialog;
+			path = "../../../../Downloads/J36/Messages dAmour/View/Dialog";
+			sourceTree = "<group>";
+		};
+		11B4540F2BDE640E009C4103 /* GifImages */ = {
+			isa = PBXGroup;
+			children = (
+				11B4540E2BDE640E009C4103 /* AnimatedGifView.swift */,
+			);
+			path = GifImages;
+			sourceTree = "<group>";
+		};
+		11B454202BDE640E009C4103 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				11B454102BDE640E009C4103 /* BackgroundChooseView.swift */,
+				11B454112BDE640E009C4103 /* BoundsPreferenceKey.swift */,
+				11B454122BDE640E009C4103 /* CZImageEditor.swift */,
+				11B454132BDE640E009C4103 /* CZImageEditorViewModel.swift */,
+				11B454142BDE640E009C4103 /* EditImageView.swift */,
+				11B454152BDE640E009C4103 /* EditOption.swift */,
+				11B454162BDE640E009C4103 /* FilteredImage.swift */,
+				11B454172BDE640E009C4103 /* FrameType.swift */,
+				11B454182BDE640E009C4103 /* ImageEditorParameters.swift */,
+				11B454192BDE640E009C4103 /* ImagesSlideView.swift */,
+				11B4541A2BDE640E009C4103 /* ImagesView.swift */,
+				11B4541B2BDE640E009C4103 /* ImagesViewHome.swift */,
+				11B4541C2BDE640E009C4103 /* PressAndRelease.swift */,
+				11B4541D2BDE640E009C4103 /* ScreenshotMakerView.swift */,
+				11B4541E2BDE640E009C4103 /* TextBox.swift */,
+				11B4541F2BDE640E009C4103 /* TextButton.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		11B454262BDE640E009C4103 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				11B454212BDE640E009C4103 /* MessagesFavoriteView.swift */,
+				11B454222BDE640E009C4103 /* MessagesFavoriteViewSlide.swift */,
+				11B454232BDE640E009C4103 /* MessagesView.swift */,
+				11B454242BDE640E009C4103 /* MessagesViewHome.swift */,
+				11B454252BDE640E009C4103 /* MessagesViewSlide.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		11B454282BDE640E009C4103 /* StatúBar */ = {
+			isa = PBXGroup;
+			children = (
+				11B454272BDE640E009C4103 /* StatusBarModifier.swift */,
+			);
+			path = "StatúBar";
+			sourceTree = "<group>";
+		};
+		11B4542C2BDE640E009C4103 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11B4540F2BDE640E009C4103 /* GifImages */,
+				11B454202BDE640E009C4103 /* Images */,
+				11B454262BDE640E009C4103 /* Messages */,
+				11B454282BDE640E009C4103 /* StatúBar */,
+				11B454292BDE640E009C4103 /* HomeView.swift */,
+				11B4542A2BDE640E009C4103 /* MainView.swift */,
+				11B4542B2BDE640E009C4103 /* SettingView.swift */,
+			);
+			name = View;
+			path = "../../../../Downloads/J36/Messages dAmour/View/View";
+			sourceTree = "<group>";
+		};
+		11B454492BDE641D009C4103 /* RadioGroup */ = {
+			isa = PBXGroup;
+			children = (
+				11B454482BDE641D009C4103 /* MainRadioGroupView.swift */,
+			);
+			name = RadioGroup;
+			path = "../../../../Downloads/J36/Messages dAmour/Model/RadioGroup";
+			sourceTree = "<group>";
+		};
+		11B4544D2BDE641D009C4103 /* MesagesManager */ = {
+			isa = PBXGroup;
+			children = (
+				11B4544A2BDE641D009C4103 /* Messages.swift */,
+				11B4544B2BDE641D009C4103 /* MessagesManager.swift */,
+				11B4544C2BDE641D009C4103 /* PackageMess.swift */,
+			);
+			name = MesagesManager;
+			path = "../../../../Downloads/J36/Messages dAmour/Model/MesagesManager";
+			sourceTree = "<group>";
+		};
+		11B4544E2BDE641D009C4103 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Image;
+			path = "../../../../Downloads/J36/Messages dAmour/Model/Image";
+			sourceTree = "<group>";
+		};
+		11B454522BDE641D009C4103 /* LítItem */ = {
+			isa = PBXGroup;
+			children = (
+				11B4544F2BDE641D009C4103 /* ItemRcvCategoriesImages.swift */,
+				11B454502BDE641D009C4103 /* ItemRcvCategoriesMessages.swift */,
+				11B454512BDE641D009C4103 /* ItemRcvMessages.swift */,
+			);
+			name = "LítItem";
+			path = "../../../../Downloads/J36/Messages dAmour/Model/LítItem";
+			sourceTree = "<group>";
+		};
+		11B454572BDE641D009C4103 /* QuotesManager */ = {
+			isa = PBXGroup;
+			children = (
+				11B454532BDE641D009C4103 /* Category.swift */,
+				11B454542BDE641D009C4103 /* Package.swift */,
+				11B454552BDE641D009C4103 /* Quote.swift */,
+				11B454562BDE641D009C4103 /* QuoteManager.swift */,
+			);
+			name = QuotesManager;
+			path = "../../../../Downloads/J36/Messages dAmour/Model/QuotesManager";
+			sourceTree = "<group>";
+		};
+		11B4546C2BDE662B009C4103 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,12 +498,23 @@
 				11B453BC2BDE639E009C4103 /* Sources */,
 				11B453BD2BDE639E009C4103 /* Frameworks */,
 				11B453BE2BDE639E009C4103 /* Resources */,
+				11B4547D2BDE662B009C4103 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Messages d'AmourNEW";
+			packageProductDependencies = (
+				11B4546D2BDE662B009C4103 /* AlertToast */,
+				11B4546F2BDE662B009C4103 /* GoogleMobileAds */,
+				11B454712BDE662B009C4103 /* ImagePickerSwiftUI */,
+				11B454732BDE662B009C4103 /* Kingfisher */,
+				11B454752BDE662B009C4103 /* ScreenshotSwiftUI */,
+				11B454772BDE662B009C4103 /* SQLite */,
+				11B4547F2BDE662B009C4103 /* URLImage */,
+				11B454812BDE662B009C4103 /* URLImageStore */,
+			);
 			productName = "Messages d'AmourNEW";
 			productReference = 11B453C02BDE639E009C4103 /* Messages d'AmourNEW.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +587,15 @@
 				Base,
 			);
 			mainGroup = 11B453B72BDE639E009C4103;
+			packageReferences = (
+				11B454642BDE64C4009C4103 /* XCRemoteSwiftPackageReference "AlertToast" */,
+				11B454652BDE64D7009C4103 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+				11B454662BDE650B009C4103 /* XCRemoteSwiftPackageReference "ImagePickerSwiftUI" */,
+				11B454672BDE6531009C4103 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				11B454682BDE6543009C4103 /* XCRemoteSwiftPackageReference "ScreenshotSwiftUI" */,
+				11B454692BDE6563009C4103 /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+				11B4546B2BDE6618009C4103 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = 11B453C12BDE639E009C4103 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +613,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11B453CB2BDE639F009C4103 /* Preview Assets.xcassets in Resources */,
+				11B453F42BDE63EF009C4103 /* love_messages_french.db in Resources */,
 				11B453C82BDE639F009C4103 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +639,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11B454622BDE641D009C4103 /* QuoteManager.swift in Sources */,
+				11B454592BDE641D009C4103 /* Messages.swift in Sources */,
+				11B4542D2BDE640E009C4103 /* GiftDialog.swift in Sources */,
+				11B4540A2BDE6400009C4103 /* AdsViewModel.swift in Sources */,
+				11B454082BDE6400009C4103 /* QuotesManagerUntil.swift in Sources */,
 				11B453C62BDE639E009C4103 /* ContentView.swift in Sources */,
+				11B454092BDE6400009C4103 /* AdsManager.swift in Sources */,
+				11B454462BDE640E009C4103 /* MainView.swift in Sources */,
+				11B453F32BDE63EF009C4103 /* DBHelper.swift in Sources */,
+				11B4543E2BDE640E009C4103 /* TextButton.swift in Sources */,
+				11B454352BDE640E009C4103 /* FilteredImage.swift in Sources */,
+				11B454842BDE6F21009C4103 /* AppOpenAdView.swift in Sources */,
+				11B4545B2BDE641D009C4103 /* PackageMess.swift in Sources */,
+				11B454342BDE640E009C4103 /* EditOption.swift in Sources */,
+				11B454032BDE6400009C4103 /* NotificationManager.swift in Sources */,
+				11B454302BDE640E009C4103 /* BoundsPreferenceKey.swift in Sources */,
+				11B454422BDE640E009C4103 /* MessagesViewHome.swift in Sources */,
+				11B454382BDE640E009C4103 /* ImagesSlideView.swift in Sources */,
 				11B453C42BDE639E009C4103 /* Messages_d_AmourNEWApp.swift in Sources */,
+				11B4545F2BDE641D009C4103 /* Category.swift in Sources */,
+				11B454582BDE641D009C4103 /* MainRadioGroupView.swift in Sources */,
+				11B4545E2BDE641D009C4103 /* ItemRcvMessages.swift in Sources */,
+				11B454072BDE6400009C4103 /* MessagesManagerUntil.swift in Sources */,
+				11B4543C2BDE640E009C4103 /* ScreenshotMakerView.swift in Sources */,
+				11B454042BDE6400009C4103 /* ColorStrings.swift in Sources */,
+				11B4545D2BDE641D009C4103 /* ItemRcvCategoriesMessages.swift in Sources */,
+				11B4542E2BDE640E009C4103 /* AnimatedGifView.swift in Sources */,
+				11B4543A2BDE640E009C4103 /* ImagesViewHome.swift in Sources */,
+				11B454432BDE640E009C4103 /* MessagesViewSlide.swift in Sources */,
+				11B454472BDE640E009C4103 /* SettingView.swift in Sources */,
+				11B4540B2BDE6400009C4103 /* BackgroundManager.swift in Sources */,
+				11B4545C2BDE641D009C4103 /* ItemRcvCategoriesImages.swift in Sources */,
+				11B4543F2BDE640E009C4103 /* MessagesFavoriteView.swift in Sources */,
+				11B454362BDE640E009C4103 /* FrameType.swift in Sources */,
+				11B454452BDE640E009C4103 /* HomeView.swift in Sources */,
+				11B454612BDE641D009C4103 /* Quote.swift in Sources */,
+				11B4543B2BDE640E009C4103 /* PressAndRelease.swift in Sources */,
+				11B454332BDE640E009C4103 /* EditImageView.swift in Sources */,
+				11B454062BDE6400009C4103 /* StringResources.swift in Sources */,
+				11B454602BDE641D009C4103 /* Package.swift in Sources */,
+				11B454312BDE640E009C4103 /* CZImageEditor.swift in Sources */,
+				11B454372BDE640E009C4103 /* ImageEditorParameters.swift in Sources */,
+				11B4542F2BDE640E009C4103 /* BackgroundChooseView.swift in Sources */,
+				11B454322BDE640E009C4103 /* CZImageEditorViewModel.swift in Sources */,
+				11B4543D2BDE640E009C4103 /* TextBox.swift in Sources */,
+				11B454412BDE640E009C4103 /* MessagesView.swift in Sources */,
+				11B454052BDE6400009C4103 /* FontStrings.swift in Sources */,
+				11B454402BDE640E009C4103 /* MessagesFavoriteViewSlide.swift in Sources */,
+				11B454442BDE640E009C4103 /* StatusBarModifier.swift in Sources */,
+				11B454392BDE640E009C4103 /* ImagesView.swift in Sources */,
+				11B4545A2BDE641D009C4103 /* MessagesManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,10 +778,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
@@ -404,10 +836,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
@@ -417,14 +850,16 @@
 		11B453E52BDE639F009C4103 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon 1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Messages d'AmourNEW/Preview Content\"";
 				DEVELOPMENT_TEAM = 8B2KM2HW5W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Messages-d-AmourNEW-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -434,7 +869,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "sweet.love.studio.love-french.Messages-d-AmourNEW";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -446,14 +881,16 @@
 		11B453E62BDE639F009C4103 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon 1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Messages d'AmourNEW/Preview Content\"";
 				DEVELOPMENT_TEAM = 8B2KM2HW5W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Messages-d-AmourNEW-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -463,7 +900,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "sweet.love.studio.love-french.Messages-d-AmourNEW";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -588,6 +1025,108 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		11B454642BDE64C4009C4103 /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.9;
+			};
+		};
+		11B454652BDE64D7009C4103 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.3.0;
+			};
+		};
+		11B454662BDE650B009C4103 /* XCRemoteSwiftPackageReference "ImagePickerSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tsuzukihashi/ImagePickerSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		11B454672BDE6531009C4103 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+		11B454682BDE6543009C4103 /* XCRemoteSwiftPackageReference "ScreenshotSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gualtierofrigerio/ScreenshotSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+		11B454692BDE6563009C4103 /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.15.3;
+			};
+		};
+		11B4546B2BDE6618009C4103 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		11B4546D2BDE662B009C4103 /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11B454642BDE64C4009C4103 /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
+		};
+		11B4546F2BDE662B009C4103 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11B454652BDE64D7009C4103 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+		11B454712BDE662B009C4103 /* ImagePickerSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11B454662BDE650B009C4103 /* XCRemoteSwiftPackageReference "ImagePickerSwiftUI" */;
+			productName = ImagePickerSwiftUI;
+		};
+		11B454732BDE662B009C4103 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11B454672BDE6531009C4103 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		11B454752BDE662B009C4103 /* ScreenshotSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11B454682BDE6543009C4103 /* XCRemoteSwiftPackageReference "ScreenshotSwiftUI" */;
+			productName = ScreenshotSwiftUI;
+		};
+		11B454772BDE662B009C4103 /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11B454692BDE6563009C4103 /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			productName = SQLite;
+		};
+		11B4547F2BDE662B009C4103 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11B4546B2BDE6618009C4103 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		11B454812BDE662B009C4103 /* URLImageStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11B4546B2BDE6618009C4103 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImageStore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 11B453B82BDE639E009C4103 /* Project object */;
 }
